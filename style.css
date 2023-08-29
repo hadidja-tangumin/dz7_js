@@ -1,0 +1,44 @@
+body{
+    background-color: lightskyblue;
+    color: lightskyblue;
+    /*font-size: 20px;*/
+}
+.puzzle{
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    /*gap: 20px;*/
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+    width: 500px;
+    height: 430px;
+    padding: 25px;
+    margin: 150px auto 0;
+}
+.answer{
+    display: none;
+}
+.answer.show{
+    display: block;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.answers{
+    display: flex;
+    gap: 5px;
+}
+button{
+    background-color: palegreen;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
